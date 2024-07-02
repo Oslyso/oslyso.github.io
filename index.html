@@ -24,7 +24,7 @@
 
     <script>
         const video = document.getElementById('videoPlayer');
-        const streamUrl = '{{ url_for('video_feed') }}';
+        const streamUrl = '{{ url_for('http://10.135.246.64:8000') }}';
 
         video.src = streamUrl;
     </script>
